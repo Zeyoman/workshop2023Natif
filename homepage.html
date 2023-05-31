@@ -2,21 +2,18 @@
 <html>
 <head>
   <title>Homepage</title>
-  <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <header>
   <div id="Top">
     <div id="logo">
-      <a href="/homepage.html">
-        <img class="logo" src="/logo.png" alt=Logo">
-      </a>
-    </div>
+      <img src="logotrotroc.png" alt="logo" style="height: 60%; margin-top:15px; margin-left:10px;">
+        </div>
     <div id="glob">
       <div class="headerMarg active" id="home">Home</div>
       <div class="headerMarg" id="propos">A Propos</div>
@@ -29,32 +26,69 @@
 <div class="body">
   <h1 class="mt-5 mb-5">LIKEZ, MATCHEZ, TROQUEZ !</h1>
 
-  <div class="top-content flex space-between mb-5">
-    <div class="flex flex-vertical p2 w-half">
-      <h2>Trouvez le bien idéal à échanger</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.rer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il. </p>
-      <button class="headerMarg headerButton" id="post">Poster une annonce</button>
+  <div class="top-content flex space-between mb-6">
+    <div class="flex flex-vertical p2 w-40">
+      <h2 class="mb-5">Trouvez le bien idéal à échanger</h2>
+      <p class="mb-5">Échangez, swappez et découvrez de nouveaux trésors avec notre site de troc innovant !
+  Faites glisser, faites correspondre et réinventez votre expérience de troc en un seul clic.</p>
+      <button class="headerMarg headerButton w-half" id="post">Poster une annonce</button>
+    </div>
+    <div class="slide flex">
+      <span class="material-symbols-outlined blue">
+        cancel
+        </span>
+      <img src="/workshop/workshop2023Natif/coussin.jpg" alt="" class="border-black content-img">
+      <span class="material-symbols-outlined red">
+        favorite
+        </span>
+    </div>
     </div>
     <a href="produit.html">
       <img src="/chaise.png" alt="" class="border-black content-img">
     </a>
   </div>
-
   <h4 class="mb-4">Catégories</h4>
   <div class="product-grid">
     <div class="product">
-      <img src="/coussin.jpg" alt="Chemise" class="border-black">
-      <h2>Chemise</h2>
+      <img src="/coussin.jpg" alt="Chemise" class="border-black grid-pic">
+      <h5>Mobilier</h5>
     </div>
     <div class="product">
       <img src="/coussin.jpg" alt="Pantalon" class="border-black">
-      <h2>Pantalon</h2>
+      <h5>Bricolage</h5>
     </div>
     <div class="product">
       <img src="/coussin.jpg" alt="Chaussures" class="border-black">
-      <h2>Chaussures</h2>
+      <h5>Automobile</h5>
     </div>
-    <!-- A remplacer par le foreach -->
+  </div>
+  <div class="product-grid">
+    <div class="product">
+      <img src="/coussin.jpg" alt="Chemise" class="border-black">
+      <h5>Multimédia</h5>
+    </div>
+    <div class="product">
+      <img src="/coussin.jpg" alt="Pantalon" class="border-black">
+      <h5>Ordinateur</h5>
+    </div>
+    <div class="product">
+      <img src="/coussin.jpg" alt="Chaussures" class="border-black">
+      <h5>Téléphone</h5>
+    </div>
+  </div> 
+  <div class="product-grid">
+    <div class="product">
+      <img src="/coussin.jpg" alt="Chemise" class="border-black">
+      <h5>Tablette</h5>
+    </div>
+    <div class="product">
+      <img src="/coussin.jpg" alt="Pantalon" class="border-black">
+      <h5>Vêtement</h5>
+    </div>
+    <div class="product">
+      <img src="/coussin.jpg" alt="Chaussures" class="border-black">
+      <h5>Chaussures</h5>
+    </div>
   </div>
 </div>
 </body>

@@ -117,10 +117,10 @@ h1 {
 
 .product {
     text-align: center;
-}
-
-.product img {
-    width: 200px;
+  }
+  
+  .product img {
+    width: 300px;
     height: 200px;
     object-fit: cover;
 }
@@ -230,6 +230,10 @@ h1, p {
   margin-bottom: 64px;
 }
 
+.mb-6{
+  margin-bottom: 128px;
+}
+
 .p1{
   padding: 4px;
 }
@@ -252,6 +256,10 @@ h1, p {
 
 .w-half{
   width: 50%;
+}
+
+.w-40{
+  width: 40%;
 }
 
 .space-between{
@@ -337,4 +345,19 @@ button#connexionCpt {
 p.trucChiant {
     color: grey;
     text-decoration: underline;
+}
+.slide{
+  align-items: center;
+}
+
+.slide > span {
+  padding: 24px;
+}
+
+.blue {
+  color: var(--primary-blue);
+}
+
+.red {
+  color: red;
 }
