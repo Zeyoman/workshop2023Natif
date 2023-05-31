@@ -7,31 +7,48 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-  <h1>LIKEZ, MATCHEZ, TROQUEZ !</h1>
-
-  <div class="top-content flex">
-    <div class="flex flex-vertical">
-      <div class="h2">Trouvez le bien idéal à échanger</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.rer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il. </p>
+<header>
+  <div id="Top">
+    <div id="logo">
+      <div style=" height: 65px; width: 80px; background-color: cadetblue;"></div>
     </div>
-    <img src="https://ae01.alicdn.com/kf/H5a0559e7ad5441e7832c131601df594aN/Nicolas-Jos-Juste-de-coussin-imprim-e-pour-b-b-en-polyester-peau-de-p-che.jpg" alt="" class="border-black">
+    <div id="glob">
+      <div class="headerMarg active" id="home">Home</div>
+      <div class="headerMarg" id="propos">A Propos</div>
+      <button class="headerMarg headerButton" id="connexion">Connexion</button>
+      <button class="headerMarg headerButton" id="post">Poster une annonce</button>
+    </div>
+  </div>
+</header>
+<body>
+<div class="body">
+  <h1 class="mt-5 mb-5">LIKEZ, MATCHEZ, TROQUEZ !</h1>
+
+  <div class="top-content flex space-between mb-5">
+    <div class="flex flex-vertical p2 w-half">
+      <h2>Trouvez le bien idéal à échanger</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.rer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il. </p>
+      <button class="headerMarg headerButton" id="post">Poster une annonce</button>
+    </div>
+    <img src="/workshop/workshop2023Natif/coussin.jpg" alt="" class="border-black content-img">
   </div>
 
+  <h4 class="mb-4">Catégories</h4>
   <div class="product-grid">
     <div class="product">
-      <img src="chemise.jpg" alt="Chemise">
+      <img src="/workshop/workshop2023Natif/coussin.jpg" alt="Chemise" class="border-black">
       <h2>Chemise</h2>
     </div>
     <div class="product">
-      <img src="pantalon.jpg" alt="Pantalon">
+      <img src="/workshop/workshop2023Natif/coussin.jpg" alt="Pantalon" class="border-black">
       <h2>Pantalon</h2>
     </div>
     <div class="product">
-      <img src="chaussures.jpg" alt="Chaussures">
+      <img src="/workshop/workshop2023Natif/coussin.jpg" alt="Chaussures" class="border-black">
       <h2>Chaussures</h2>
     </div>
     <!-- A remplacer par le foreach -->
   </div>
+</div>
 </body>
 </html>
