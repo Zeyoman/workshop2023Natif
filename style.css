@@ -1,8 +1,86 @@
 *{
     margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #Top {
     display: flex;
     justify-content: space-between;
     height: 65px;
+    border-bottom: 2px black solid;
+}
+#glob{
+    display: flex;
+    align-items: center;
+}
+.active {
+    text-decoration: underline;
+    text-decoration-color: #90caf9;
+    text-underline-offset: 15px;
+}
+.headerMarg{
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+.headerButton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 7px;
+}
+#connexion {
+    border: 2px #90caf9 solid;
+    color: #90caf9;
+    background-color: transparent;
+}
+#post {
+    border: 2px #90caf9 solid;
+    color: white;
+    background-color: #90caf9;
+}
+#side{
+    display: flex;
+}
+.photo {
+    width: 200%;
+    height: 500px;
+    display: flex;
+}
+.imgPRDT {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+.description {
+    margin: 80px 40px 0px 40px;
+    padding: 25px;
+}
+.imgPP {
+    width: 30px;
+    height: 30px;
+    margin-left: 5%;
+    background-color: pink;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.ttre{
+    display: flex;
+    align-items: center;
+}
+.titire{
+    font-size: 2em;
+}
+.reservePRDT {
+    display: flex;
+    flex-direction: column;
+}
+.echanger{
+    border: 2px #90caf9 solid;
+    color: white;
+    background-color: #90caf9;
+}
+.envoiMessage{
+    border: 2px #90caf9 solid;
+    color: #90caf9;
+    background-color: transparent;
 }
