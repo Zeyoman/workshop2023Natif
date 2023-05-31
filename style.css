@@ -1,6 +1,14 @@
+:root{
+  --bg:#FAFEFF;
+  --primary-blue:#90CAF9;
+
+}
+
+
 *{
     margin: 0px;
     font-family: 'Josefin Sans', sans-serif;
+    background-color: var(--bg);
 }
 #Top {
     display: flex;
@@ -126,3 +134,15 @@ h1 {
     margin: 0;
   }
   
+.flex{
+  display: flex;
+}
+
+.flex-vertical{
+  flex-direction: column;
+}
+
+.border-black{
+  border: 1px black solid;
+  border-radius: 6px;
+}
